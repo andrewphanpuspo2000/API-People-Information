@@ -1,0 +1,20 @@
+### get the confirmation
+GET http://localhost:8200
+
+###
+POST http://localhost:8200/new/rest/prac
+Content-Type: application/json
+
+{
+    "name":"Andrew",
+    "age":25
+}
+###
+PATCH  http://localhost:8200/new/rest/prac
+Content-Type: application/json
+
+{
+  "id":"64899d49a71cd0f83dafded4",
+  "name": "Libero"
+
+}
